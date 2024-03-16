@@ -1,0 +1,29 @@
+{
+  "name": "upaste",
+  "version": "1.0.0",
+  "description": "A minimal pastebin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Perilous-Programmer/uPaste.git"
+  },
+  "keywords": [
+    "pastebin"
+  ],
+  "author": "Muhammad Abdullah",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Perilous-Programmer/uPaste/issues"
+  },
+  "homepage": "https://github.com/Perilous-Programmer/uPaste#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "express-generator": "^4.2.0",
+    "nodemon": "^3.1.0"
+  }
+}
