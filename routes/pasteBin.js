@@ -9,7 +9,7 @@ router.get('/', async function(req, res, next) {
 });
 
 router.get('/:id', async function(req, res, next) {
-  res.send('respond with a resource '+parseInt(req.params.id, 10));
+  res.json(await Snipit.findByPk(req.params.id || 0));
 });
 
 router.post('/', async function(req, res, next) {
